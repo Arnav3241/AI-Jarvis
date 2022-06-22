@@ -1,0 +1,16 @@
+{
+    "Data" : {
+        "Assistant_Data" : {
+            "Assistant_Name": "Jarvis"
+        },
+        "STT_Data" : {
+            "Pause_Threshold" : 1
+        },
+        "TTS_Data" : {
+            "Speech_Rate": 180
+        },
+        "Arduino_Data" : {
+            "Com_Port" : "Com4"
+        }
+    }
+}

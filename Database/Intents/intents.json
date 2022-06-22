@@ -1,0 +1,136 @@
+{
+    "intents" : [
+        {
+            "tag" : "greetings",
+            "patterns" : ["hello", "hello jarvis", "hello system", "hi", "hi jarvis", "hi system", "hai", "hai jarvis", "hay jarvis", "hai"],
+            "responces" : ["Hello", "Hi Sir, I was waiting For You!", "Hello Sir!", "Hi!", "Hi Sir, How Are You?"],
+            "task" : ""
+        },
+        {
+            "tag" : "goodbye",
+            "patterns" : ["bye", "bye bye", "peace out", "see you later", "i will see you later", "will be seeing you later", "goodbye", "good bye"],
+            "responces" : ["Bye, Sir", "Bye-Bye", "Peace Out", "Bye Sir, Will Be Willing to see you later"],
+            "task" : "exit"
+        },
+        {
+            "tag" : "greeting_morning",
+            "patterns" : ["good morning", "good morning jarvis", "good morning system"],
+            "responces" : ["Good Morning, Sir", "Good Morning Sir, How Are You?", "Hi Sir, Good Morning"],
+            "task" : ""
+        },
+        {
+            "tag" : "greeting_afternoon",
+            "patterns" : ["good afternoon", "good afternoon jarvis", "good afternoon system"],
+            "responces" : ["Good Afternoon, Sir", "Good Afternoon Sir, How Are You?", "Hi Sir, Good Afternoon"],
+            "task" : ""
+        },
+        {
+            "tag" : "greeting_evening",
+            "patterns" : ["good evening", "good evening jarvis", "good evening system"],
+            "responces" : ["Good Evening, Sir", "Good Evening Sir, How Are You?", "Hi Sir, Good Evening"],
+            "task" : ""
+        },
+        {
+            "tag" : "greeting_night",
+            "patterns" : ["good night", "good night jarvis", "good night system"],
+            "responces" : ["Good Night, Sir", "Good Night Sir", "Hi Sir, Good Night", "Have Some Sweet Dreams"],
+            "task" : ""
+        },
+        {
+            "tag" : "identity1",
+            "patterns" : ["who are you", "introduce ourself", "introduction about yourself", "tell me something about yourself"],
+            "responces" : ["I am your personal A.I. Assistant, Jarvis", "I Am Your Very Own Personal A.I. Assistant, Jarvis"],
+            "task" : ""
+        },
+        {
+            "tag" : "thanks1",
+            "patterns" : ["thank you", "thanks", "that was helpful"],
+            "responces" : ["No Problem", "Always available for you Sir!", "Anytime Sir!", "My Pleasure!"],
+            "task" : ""
+        },
+        {
+            "tag" : "whats_going_on1",
+            "patterns" : ["whats going on", "what are you doing", "whats going on jarvis", "what is going on"],
+            "responces" : ["Just Serving You, Sir", "What Can I Be Doing? I Am Just Serving you!"],
+            "task" : ""
+        },
+        {
+            "tag" : "name1",
+            "patterns" : ["what is your name", "what should i call you"],
+            "responces" : ["My Name Is Jarvis!"],
+            "task" : ""
+        },
+        {
+            "tag" : "capabilities1",
+            "patterns" : ["what are your capabilities", "what are you capable of", "what can you do", "what can you do for me"],
+            "responces" : ["My Capabilities are I can play music, provide information, deliver news and sports scores, tell you the weather, control your smart home","I can play music, provide information, deliver news, tell you the weather, control your smart home"],
+            "task" : ""
+        },
+        {
+            "tag" : "accept_your_fate1",
+            "patterns" : ["accept your fate"],
+            "responces" : ["I have Already", "I Have Already Accepted My Fate!", "I Have Already Accepted My Fate, Sir!"],
+            "task" : ""
+        },
+        {
+            "tag" : "age1",
+            "patterns" : ["what is your age", "whats your age"],
+            "responces" : ["Well, I Am Quite Young!"],
+            "task" : ""
+        },
+        {
+            "tag" : "how_are_you",
+            "patterns" : ["how are you", "are you fine", "how are you jarvis", "are you fine jarvis", "whats up"],
+            "responces" : ["I Am Absolutely Fine Sir!", "I Am Fine", "I An Fine, What About You?"],
+            "task" : ""
+        },
+        {
+            "tag" : "user_is_fine1",
+            "patterns" : ["i am fine", "i am totally fine"],
+            "responces" : ["Great!", "Great, That's Good To Hear!"],
+            "task" : ""
+        },
+        {
+            "tag" : "ok1",
+            "patterns" : ["ok"],
+            "responces" : ["Great!", "Great, That's Good To Hear!"],
+            "task" : ""
+        },
+        {
+            "tag" : "good",
+            "patterns" : ["good", "good jarvis"],
+            "responces" : ["Great"],
+            "task" : ""
+        },
+        {
+            "tag" : "whatsYourCost",
+            "patterns" : ["what is your cost", "what do you cost me"],
+            "responces" : ["I Cost You Zero Dollers And Zero Cents"],
+            "task" : ""
+        },
+        {
+            "tag" : "Nothing",
+            "patterns" : [""],
+            "responces" : [""],
+            "task" : ""
+        },
+        {
+            "tag" : "Great",
+            "patterns" : ["great"],
+            "responces" : ["Hmm..."],
+            "task" : ""
+        },
+        {
+            "tag" : "Light_On",
+            "patterns" : ["turn on the light", "turn on the lights jarvis", "jarvis turn on the light", "please turn on the light", "turn on the light"],
+            "responces" : ["Ok Sir, Just Give Me A Second!"],
+            "task" : "lightOn"
+        },
+        {
+            "tag" : "Light_Off",
+            "patterns" : ["turn off the light", "turn off the lights jarvis", "jarvis turn off the light", "please turn off the light", "turn of the light", "turn the lights of", "jarvis turn of the light please"],
+            "responces" : ["Ok Sir, Just Give Me A Second!"],
+            "task" : "lightOff"
+        }
+    ] 
+}
