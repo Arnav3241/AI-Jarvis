@@ -12,6 +12,8 @@ import pyttsx3
 import random
 import torch
 
+# Made By Arnav Singh
+
 #Important Variables:
 EmailAddress = "arnav.singh.legendary.202@gmail.com"        #The E-Mail Address required for checking & sending email
 Device = torch.device("cpu")                                #The Device We Are Using To Train The Neural Network
